@@ -4,6 +4,7 @@ import Image3 from "../../assets/project3.jpg";
 import Image4 from "../../assets/project4.jpg";
 import Image5 from "../../assets/project5.jpg";
 import Image6 from "../../assets/project6.jpg";
+import Image7 from "../../assets/project7.jpg";
 
 const data = [
   {
@@ -58,6 +59,15 @@ const data = [
     title: "SmartChatz Android App (Frontend)",
     desc: "SmartChatz is an app based off ChatGPT Openai api. Features during testing is text-to-speech and voice recording.",
     demo: "https://play.google.com/store/apps/details?id=com.tismstudios.smartchatv2&hl=en_US&gl=US",
+    github: "https://github.com/QDMS",
+  },
+  {
+    id: 6,
+    category: "Web Development",
+    image: Image7,
+    title: "Chucks Junk Removal (Frontend)",
+    desc: "Junk removal react webpage I made for a client.",
+    demo: "https://www.chucksjunkremoval.com/",
     github: "https://github.com/QDMS",
   },
 ];
