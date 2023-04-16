@@ -49,7 +49,7 @@
     width: 100%;
     height: 50vh;
     background-color: #212121;
-    border-radius: 20px;
+    border-radius: 25%;
     -webkit-animation: test 4s infinite;
     /* Chrome, Safari, Opera */
     animation: test 4s infinite;
@@ -59,11 +59,26 @@
     padding: 10px;
 }
 
+.speaker-image{
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    -webkit-animation: test 4s infinite;
+    /* Chrome, Safari, Opera */
+    animation: test 4s infinite;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .control-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 20vh;
     gap: 15px;
 }
 
@@ -77,7 +92,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 770%;
+    top: 779%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
 }
@@ -87,7 +102,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 773%;
+    top: 782%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
 }
