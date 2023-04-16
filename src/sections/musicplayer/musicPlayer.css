@@ -145,6 +145,33 @@
 }
 
 /* MEDIA QUERIES (phones) */
+@media screen and (max-width: 500px) {
+    .musicPlayer__container {
+        gap: 1.5rem;
+    }
+
+    .activeSong-name{
+        color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 1273%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+    }
+    
+    .activeArtist-name{
+        color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 1276%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+    }
+}
+
+/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 400px) {
     .musicPlayer__container {
         gap: 1.5rem;
