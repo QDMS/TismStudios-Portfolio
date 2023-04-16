@@ -6,11 +6,13 @@ import Portfolio from './sections/portfolio/Portfolio';
 import Testimonials from './sections/testimonials/Testimonials';
 import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
+import MusicPlayer from './sections/musicplayer/MusicPlayer';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
 import Theme from './theme/Theme';
 import { useThemeContext } from './context/theme-context';
 import {useRef, useState, useEffect} from 'react'
+
 
 const App = () => {
   const {themeState} = useThemeContext();
@@ -58,6 +60,7 @@ const App = () => {
         <Testimonials/>
         <FAQs/>
         <Contact/>
+        <MusicPlayer/>
         <Footer/>
         <Theme/>
         {showFloatingNav && <FloatingNav/>}
