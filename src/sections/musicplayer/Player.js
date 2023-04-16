@@ -19,7 +19,7 @@ export default function Player({ currentSong, currentIndex }) {
   else {
     audioRef.current.pause();
   }
-  }, [isPlaying])
+  }, [isPlaying, currentIndex])
   
   return (
     <div>
